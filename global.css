@@ -1,0 +1,46 @@
+html, * {
+	font-family: 'Inconsolata', monospace;
+	box-sizing: border-box;
+}
+body{
+	/* background: #2f3640; */
+	/* background-color: #1e272e; */
+	background-color: #12181d;
+	overflow: hidden;
+	margin: 0;
+	height: 100vh;
+	padding: 0;
+	padding-top: 50px;
+}
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 100,
+	'GRAD' -25,
+	'opsz' 48
+}
+
+a {
+	color: #487eb0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0097e6;
+}
+
+a span {
+	margin-right: 5px;
+}
+
+p {
+	color: #7f8fa6;
+}
+
+.message {
+	margin-top: 20px;
+}
+.message p {
+	color: #7f8fa6;
+	margin: 0;
+}
